@@ -43,11 +43,10 @@ img.emoji {
 <meta name="generator" content="WordPress 5.4.2" />
 <link rel="canonical" href="https://dhartiputraonline.com/" />
 <link rel='shortlink' href='https://dhartiputraonline.com/' />
-<link rel="alternate" type="application/json+oembed" href="https://dhartiputraonline.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdhartiputraonline.com%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://dhartiputraonline.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdhartiputraonline.com%2F&#038;format=xml" />
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Global site tag .(gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171676217-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
