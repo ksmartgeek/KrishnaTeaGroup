@@ -45,6 +45,8 @@ img.emoji {
 <link rel='shortlink' href='https://dhartiputraonline.com/' />
 
 
+kirankumar patel
+
 
 <!-- Global site tag .(gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171676217-1"></script>
