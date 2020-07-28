@@ -1444,7 +1444,7 @@ hr {
 /* =================================================================== */
 #portfolio {
 	background: white;
-	padding-top: 120px;
+	padding-top: 50px;
 }
 .ie #portfolio .row.items {
 	width: 1140px;
@@ -1544,8 +1544,8 @@ hr {
 /* =================================================================== */
 #services {
 	background: #ecf0f1;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 .service-list {
@@ -1582,8 +1582,8 @@ hr {
 
 #about {
 	background: white;
-	padding-top: 10px;
-	padding-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #about .about-content {
 	max-width: 934px;
@@ -1717,8 +1717,8 @@ hr {
 /* =================================================================== */
 #contact {
 	background: #12151b;
-	padding-top: 120px;
-	padding-bottom: 102px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	overflow: hidden;
 }
 #contact .row {
