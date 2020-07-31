@@ -824,11 +824,11 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 126px;
-	height: 12px;
+	width: 200px;
+	height: 150px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("../images/.png");
+	background-image: url("../images/krishnalogo.png");
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
