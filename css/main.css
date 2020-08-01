@@ -1472,7 +1472,7 @@ hr {
 /*  m. Services Section
 /* =================================================================== */
 #Products {
-	background: #ecf0f1;
+	/* background: #ecf0f1; */
 	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
@@ -1609,7 +1609,7 @@ hr {
 
 /* Team Section
 /* -------------------------------------------------------------------- */
-#team {
+#about #team {
 	background: #ecf0f1;
 	margin-top: 66px;
 	padding-top: 0px;
@@ -1627,7 +1627,7 @@ hr {
 }
 #team-wrapper .member-header {
 	position: relative;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 #team-wrapper .member-pic {
 	width: 78px;
