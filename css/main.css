@@ -1447,7 +1447,7 @@ hr {
 #about {
 	background: white;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 #about .about-content {
 	max-width: 934px;
@@ -1474,7 +1474,7 @@ hr {
 #Products {
 	/* background: #ecf0f1; */
 	padding-top: 50px;
-	padding-bottom: 50px;
+	/* padding-bottom: 50px; */
 	text-align: center;
 }
 .service-list {
@@ -1609,8 +1609,8 @@ hr {
 
 /* Team Section
 /* -------------------------------------------------------------------- */
-#about #team {
-	background: #ecf0f1;
+#team {
+	/* background: #ecf0f1; */
 	margin-top: 66px;
 	padding-top: 0px;
 	padding-bottom: 0px;
