@@ -832,7 +832,7 @@ header .logo a {
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo-@2x.png");
+		background-image: url("../images/.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1439,12 +1439,78 @@ hr {
 	cursor: default;
 }
 
+
+/* 
+/*  n. About Section
+/* =================================================================== */
+
+#about {
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#about .about-content {
+	max-width: 934px;
+}
+#about h3 {
+	font: 16px/36px "raleway-heavy", sans-serif;
+	text-transform: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+#about p {
+	color: #707273;
+}
+#about .left {
+	padding-right: 30px;
+}
+#about .right {
+	padding-left: 30px;
+}
+
+/* 
+/*  m. Services Section
+/* =================================================================== */
+#Products {
+	background: #ecf0f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.service-list {
+	margin: 15px -22px 0 -22px;
+}
+.service-list .bgrid {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0 22px;
+}
+.service-list .icon-part {
+	background: #f26522;
+	color: white;
+	width: 72px;
+	padding: 15px 3px;
+	font-size: 40px;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+.service-list h3 {
+	font: 16px/24px "raleway-heavy", sans-serif;
+	padding: 0;
+}
+.service-list p {
+	color: #707273;
+	position: relative;
+	top: -6px;
+}
+
 /* 
 /* l. Portfolio Section
 /* =================================================================== */
 #portfolio {
 	background: white;
 	padding-top: 50px;
+
 }
 .ie #portfolio .row.items {
 	width: 1140px;
@@ -1539,78 +1605,15 @@ hr {
 	transform: scale(1.2);
 }
 
-/* 
-/*  m. Services Section
-/* =================================================================== */
-#services {
-	background: #ecf0f1;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	text-align: center;
-}
-.service-list {
-	margin: 15px -22px 0 -22px;
-}
-.service-list .bgrid {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 0 22px;
-}
-.service-list .icon-part {
-	background: #f26522;
-	color: white;
-	width: 72px;
-	padding: 15px 3px;
-	font-size: 40px;
-	border-radius: 3px;
-	margin: 0 auto;
-}
-.service-list h3 {
-	font: 16px/24px "raleway-heavy", sans-serif;
-	padding: 0;
-}
-.service-list p {
-	color: #707273;
-	position: relative;
-	top: -6px;
-}
 
-
-/* 
-/*  n. About Section
-/* =================================================================== */
-
-#about {
-	background: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#about .about-content {
-	max-width: 934px;
-}
-#about h3 {
-	font: 16px/36px "raleway-heavy", sans-serif;
-	text-transform: none;
-	padding: 0;
-	margin-bottom: 0;
-}
-#about p {
-	color: #707273;
-}
-#about .left {
-	padding-right: 30px;
-}
-#about .right {
-	padding-left: 30px;
-}
 
 /* Team Section
 /* -------------------------------------------------------------------- */
-#about #team {
+#team {
 	background: #ecf0f1;
 	margin-top: 66px;
-	padding-top: 78px;
-	padding-bottom: 120px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 #team-wrapper {
 	margin: 24px -18px 0 -18px;
