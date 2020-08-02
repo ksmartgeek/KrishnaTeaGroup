@@ -1138,7 +1138,7 @@ hr {
 	text-align: center;
 }
 .section-head h1 {
-	font: 15px/24px "raleway-heavy", sans-serif;
+	/* font: 15px/24px "raleway-heavy", sans-serif; */
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	color: #252525;
@@ -1445,9 +1445,15 @@ hr {
 /* =================================================================== */
 
 #about {
-	background: white;
+	background: #12151b url(../images/about-bg.jpg) no-repeat center center fixed;
+	-webkit-background: #12151b url(../images/about-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	background-size: cover !important;
 	padding-top: 50px;
 	padding-bottom: 0px;
+	width: 100%;
+	
 }
 #about .about-content {
 	max-width: 934px;
@@ -1459,7 +1465,7 @@ hr {
 	margin-bottom: 0;
 }
 #about p {
-	color: #707273;
+	color: black;
 }
 #about .left {
 	padding-right: 30px;
@@ -1472,7 +1478,7 @@ hr {
 /*  m. Services Section
 /* =================================================================== */
 #Products {
-	/* background: #ecf0f1; */
+	background: white; 
 	padding-top: 50px;
 	/* padding-bottom: 50px; */
 	text-align: center;
@@ -1510,6 +1516,7 @@ hr {
 #portfolio {
 	background: white;
 	padding-top: 50px;
+	padding-bottom: 50px;
 
 }
 .ie #portfolio .row.items {
@@ -1610,8 +1617,8 @@ hr {
 /* Team Section
 /* -------------------------------------------------------------------- */
 #team {
-	/* background: #ecf0f1; */
-	margin-top: 66px;
+	background: white; 
+	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -1715,6 +1722,8 @@ hr {
 }
 
 
+footer .footer-logo-box{width:100%;float:left;height:auto;}
+footer .footer-logo-box img{padding-top: 20px;width:auto;height:inherit;max-width: 100%;}
 /* 
 /*  p. Contact Section
 /* =================================================================== */
@@ -1725,7 +1734,7 @@ hr {
 	overflow: hidden;
 }
 #contact .row {
-	max-width: 784px;
+	max-width: 900px;
 }
 #contact h1 {
 	color: white;
