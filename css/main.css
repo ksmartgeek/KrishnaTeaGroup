@@ -1447,7 +1447,7 @@ hr {
 
 #about {
 	background: white;
-	-webkit-background: url(../images/about-bg.jpg) no-repeat center center fixed;
+	
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: 100% !important;
